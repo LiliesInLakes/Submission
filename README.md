@@ -15,7 +15,7 @@
    `pip install -r requirements.txt`
 
 2. **Run Training**:
-   `python train.py --data ./data --epochs 50 --batch_size 64`
+   `python train.py --data ./data`
 
 3. **Run Testing**:
-   `python test.py --data ./data`
+   `python test.py --data ./data --model model_file`
