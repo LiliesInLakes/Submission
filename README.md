@@ -18,4 +18,4 @@
    `python train.py --data ./data`
 
 3. **Run Testing**:
-   `python test.py --data ./data --model model_file`
+   `python test.py --data ./data --model marvel.pth`
