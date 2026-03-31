@@ -4,7 +4,7 @@
 - **Type**: Convolutional Neural Network (CNN)
 - **Layers**: 5 Conv layers with Batch Normalization, Max Pooling, GAP, Dropout (0.5), and 2 Fully Connected layers.
 - **Input**: 96x96 RGB images.
-
+  
 Accuracy ~ 71%
 Model Size ~ 580
 ## Training Procedure
