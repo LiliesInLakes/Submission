@@ -16,7 +16,7 @@ def evaluate(data_path):
     test_loader = torch.utils.data.DataLoader(test_set, batch_size=64, shuffle=False)
 
     net = ConvNeuralNet().to(device)
-    net.load_state_dict(torch.load("model.pth", map_location=device))
+    net.load_state_dict(torch.load("marvel_int8.pth", map_location=device))
     net.eval()
 
     correct = 0
