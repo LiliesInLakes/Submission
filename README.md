@@ -17,7 +17,7 @@ Model Size ~ 150KB
 1. **Install Dependencies**:
    `pip install -r requirements.txt`
 
-   if you are setting up in a new environment
+   if you are deploying this model on a server, a laptop without a dedicated NVIDIA GPU, or a Raspberry Pi
    `pip install torch torchvision numpy packaging --index-url https://download.pytorch.org/whl/cpu`
 
 3. **Run Training**:
