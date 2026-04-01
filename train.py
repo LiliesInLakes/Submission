@@ -9,7 +9,8 @@ import random
 from torchvision.transforms import v2
 from torch.optim.lr_scheduler import CosineAnnealingLR
 import torch.ao.quantization
-import torch
+import argparse
+
 
 # Set the quantization engine
 if 'fbgemm' in torch.backends.quantized.supported_engines:
