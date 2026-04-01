@@ -20,4 +20,4 @@ Model Size ~ 578
    `python train.py --data ./data`
 
 3. **Run Testing**:
-   `python test.py --data ./data --model marvel.pth`
+   `python test.py --data ./data --model marvel_int8.pth`
