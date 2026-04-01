@@ -16,8 +16,11 @@ Model Size ~ 150KB
 1. **Install Dependencies**:
    `pip install -r requirements.txt`
 
-2. **Run Training**:
+   if you are setting up in a new environment
+   `pip install torch torchvision numpy packaging --index-url https://download.pytorch.org/whl/cpu`
+
+3. **Run Training**:
    `python train.py --data ./data`
 
-3. **Run Testing**:
+4. **Run Testing**:
    `python test.py --data ./data --model marvel_int8.pth`
