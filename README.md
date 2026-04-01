@@ -25,6 +25,6 @@ Model Size ~ 150KB
 
 4. **Run Testing**:
    `python test.py --data ./data --model marvel_int8.pth`
-##Notes
+## Notes
 
 -**Inference**: The quantized model (marvel_int8.pth) is designed for CPU inference. Running it on a GPU will result in an error or fallback to FP32
