@@ -8,6 +8,7 @@
   
 Accuracy ~ 71%
 Model Size ~ 150KB
+<img width="1320" height="656" alt="image" src="https://github.com/user-attachments/assets/dab351ec-ed7e-484d-a1d1-00b61eba53d0" />
 ## Training Procedure
 - **Optimizer**: Adam (Cosine Annealing).
 - **Technique**: Semi-Supervised Learning (Pseudo-labeling). The model uses high-confidence predictions (>90%) from the 100,000 unlabeled images to supplement the 5,000 labeled samples
@@ -28,3 +29,4 @@ Model Size ~ 150KB
 ## Notes
 
 -**Inference**: The quantized model (marvel_int8.pth) is designed for CPU inference. Running it on a GPU will result in an error or fallback to FP32
+
